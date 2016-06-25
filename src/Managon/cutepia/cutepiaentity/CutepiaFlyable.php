@@ -3,7 +3,7 @@
 namespace Managon\cutepia\cutepiaentity;
 
 
-interface CutepiaRideable
+interface CutepiaFlyable
 {
 	
 }
