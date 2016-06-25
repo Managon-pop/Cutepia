@@ -6,7 +6,7 @@ use Managon\cutepia\Cutepia;
 use Managon\cutepia\CutepiaEntity;
 use Managon\cutepia\cutepiaentity\monsters\CutepiaMonster;
 
-class CutepiaZombie extends CutepiaMonster
+class CutepiaGhast extends CutepiaMonster
 {
 
 }
