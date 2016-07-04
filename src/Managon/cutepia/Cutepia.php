@@ -110,13 +110,21 @@ class Cutepia extends \pocketmine\plugin\PluginBase implements \pocketmine\event
 	}
 	
 
-	/*public function make()
+	public function make()//自分が楽するためですグフ
 	{
     	foreach ($this->damageList as $key => $name) 
 		{ 		
 			$data = 
 <<<EOL
-Entity::registerEntity({$name}::class);
+<?php
+namesapce Managon\cutepia\cutepiaentity\cutepia;
+
+use pocketmine\entity\
+
+class {$name} extends {$name} implements Cutepia??
+{
+	
+}
 EOL;
 
 			file_put_contents($this->getDataFolder()."txt.txt",$data."\n", FILE_APPEND);
